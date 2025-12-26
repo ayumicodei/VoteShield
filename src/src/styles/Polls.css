@@ -1,0 +1,35 @@
+.polls {
+  display: grid;
+  gap: 1rem;
+}
+
+.polls-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.polls-title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+.polls-meta {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.polls-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.polls-actions {
+  display: flex;
+  justify-content: center;
+}
+
